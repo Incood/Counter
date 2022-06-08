@@ -1,12 +1,9 @@
-package ru.startandroid.develop.seven;
-
-import static androidx.core.content.PackageManagerCompat.LOG_TAG;
+package com.example.counter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -27,7 +24,7 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView textView = findViewById(R.id.textView);
-        textView.setText("Hello! \n" + message);
+        textView.setText("Number: \n" + message);
     }
 
     public void Reply(View view) {

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Onee</string>
+    <string name="app_name">Counter</string>
     <string name="toast">Toast</string>
     <string name="count">Count</string>
     <string name="_0">0</string>

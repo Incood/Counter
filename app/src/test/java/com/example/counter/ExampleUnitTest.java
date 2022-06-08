@@ -1,4 +1,4 @@
-package ru.startandroid.develop.seven;
+package com.example.counter;
 
 import org.junit.Test;
 
